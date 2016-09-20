@@ -1,0 +1,1 @@
+ <img src="/i/img_2.jpg" alt="Картинка1">

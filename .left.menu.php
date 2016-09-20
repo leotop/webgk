@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Портфолио", 
+		"/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Кто мы", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Процесс", 
+		"/tech/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"События", 
+		"/events/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Готовые решения", 
+		"/gotovye-resheniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"1с-Битрикс", 
+		"/1c_bitrix/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Битрикс24", 
+		"/bitrix24/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

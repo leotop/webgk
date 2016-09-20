@@ -1,0 +1,136 @@
+/*
+* CSS Styles that are needed by jScrollPane for it to operate correctly.
+*
+* Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+* may not operate correctly without them.
+*/
+
+
+
+/* Styles specific to this particular page */
+.scroll-pane
+{
+    width: 100%;
+    height: 100%;;
+    overflow: auto;
+}
+
+
+
+.jspContainer
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.jspPane
+{
+    position: absolute;
+    width: 100%!important;
+}
+
+.jspVerticalBar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    right: 0px;
+    height: 100%;
+   /* background: #fff; */
+}
+
+.jspHorizontalBar
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background: #fff;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+    margin: 0;
+    padding: 0;
+}
+
+.jspCap
+{
+    display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+    float: left;
+}
+
+.jspDrag
+{
+    background: #6CC22B;
+    position: relative;
+    top: 0;
+    left: -6px;
+    cursor: pointer;
+    width: 5px;
+    border-radius:4px;
+    behavior:url(/js/PIE.htc);
+    
+    
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+    float: left;
+    height: 100%;
+}
+
+.jspArrow
+{
+    background: none;
+    text-indent: -20000px;
+    display: block;
+    cursor: pointer;
+}
+
+.jspArrow.jspDisabled_down
+{
+    cursor: default;  
+    background: #fff;
+
+}
+
+.jspVerticalBar .jspArrow
+{
+    height: 7px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+    width: 7px;
+    float: left;
+    height: 7px;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+    outline: none;
+} 
+
+
+.jspArrowDown {
+    background: url(/i/scrollbar/ar_down_active.jpg) no-repeat;
+}
+
+.jspArrowUp  {
+    background: url(/i/scrollbar/ar_up_active.jpg) no-repeat;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+    margin: 0 -3px 0 0;
+}

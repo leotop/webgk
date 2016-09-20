@@ -1,0 +1,1 @@
+<a href="mailto:gk@webgk.ru">gk@webgk.ru</a>

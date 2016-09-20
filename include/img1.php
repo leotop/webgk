@@ -1,0 +1,1 @@
+ <img src="/i/100x.png" alt="100x">
